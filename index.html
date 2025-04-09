@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestro Sitio Web</title>
+    <title>Partylandia</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Nuestro Sitio Web</h1>
+        <div class="logo">            
+            <img src="/images/Partylandia_logo1.png" alt="Logo de la empresa" height="50">            
+        </div>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -19,19 +21,138 @@
     </header>
 
     <main>
-        <section id="inicio">
-            <h2>Inicio</h2>
-            <p>Este es el contenido principal de la página.</p>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Celebra un cumpleaños inolvidable</h1>
+                <p>Descubre una amplia variedad de salones de eventos y servicios para crear la fiesta ideal. ¡Reserva fácil y rápido!</p>
+                
+            <div class="hero-image">
+                <img src="/images/imagen_celebracion.jpg" alt="Celebración Infantil" width="100%">
+                </div>
         </section>
 
-        <section id="sobre-mi">
-            <h2>Sobre Mí</h2>
-            <p>Información sobre nosotros o el propósito del sitio.</p>
+        <section id="categorias">
+            <h2>Servicios Destacados</h2>
+            <div class="categorias-list">
+                <div class="categoria">
+                    <h3>Salones con Juegos</h3>
+                </div>
+                <div class="categoria">
+                    <h3>Salones con Animación</h3>
+                </div>
+                <div class="categoria">
+                    <h3>Salones con Catering</h3>
+                </div>
+                </div>
+        </section>
+
+        <section id="destacados">
+            <h2>Salones Destacados</h2>
+            <div class="salones-grid">
+                <div class="salon">
+                    <img src="/images/salon1.jpg" alt="Salón 1" width="80%">
+                    <h3>Palacio de los Sueños</h3>
+                    <p>Amplio salón con detalles arquitectónicos.</p>
+                    <p>Ubicación: Libertad 456, Guaymallén, Mendoza</p>
+                    <p>Desde $1500/hora</p>
+                    <a href="detalle_salon1.html">Ver Detalles</a>
+                </div>
+                <br>
+                <div class="salon">
+                    <img src="/images/salon2.jpg" alt="Salón 2" width="80%">
+                    <h3>Aventura Mágica</h3>
+                    <p>Salón temático con animadores.</p>
+                    <p>Ubicación: Belgrano 789, Mendoza Ciudad</p>
+                    <p>Desde $1800/hora</p>
+                    <a href="detalle_salon2.html">Ver Detalles</a>
+                </div>
+                <br>
+                <div class="salon">
+                    <img src="/images/salon3.jpg" alt="Salón 3" width="80%">
+                    <h3>Salón Estelar</h3>
+                    <p>Espacio moderno con servicio de catering.</p>
+                    <p>Ubicación: San Martín 123, Godoy Cruz, Mendoza</p>
+                    <p>Desde $2000/hora</p>
+                    <a href="detalle_salon3.html">Ver Detalles</a>
+                </div>
+                <br>
+                </div>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios Adicionales</h2>
+            <div class="servicios-list">
+                <div class="servicio">
+                    <h3>Animación</h3>
+                    <p>...</p>
+                </div>
+                <div class="servicio">
+                    <h3>Catering</h3>
+                    <p>...</p>
+                </div>
+                <div class="servicio">
+                    <h3>Decoración</h3>
+                    <p>...</p>
+                </div>
+                <div class="servicio">
+                    <h3>Fotografía/Video</h3>
+                    <p>...</p>
+                </div>
+                <div class="servicio">
+                    <h3>Música/DJ</h3>
+                    <p>...</p>
+                </div>
+                <div class="servicio">
+                    <h3>Tortas y Dulces</h3>
+                    <p>...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="por-que-elegirnos">
+            <h2>¿Por Qué Elegirnos?</h2>
+            <div class="beneficios-list">
+                <div class="beneficio">
+                    <h3>Amplia Variedad</h3>
+                    <p>Descubre una gran selección de salones y servicios en un solo lugar.</p>
+                </div>
+                <div class="beneficio">
+                    <h3>Reserva Fácil y Segura</h3>
+                    <p>Proceso de reserva intuitivo y con métodos de pago seguros.</p>
+                </div>
+                <div class="beneficio">
+                    <h3>Ahorro de Tiempo</h3>
+                    <p>Olvídate de buscar en múltiples sitios, encuentra todo lo que necesitas aquí.</p>
+                </div>
+                <div class="beneficio">
+                    <h3>Información Detallada</h3>
+                    <p>Fotos, descripciones, precios y opiniones para tomar la mejor decisión.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <div class="testimonios-list">
+                <div class="testimonio">
+                    <img src="/images/cliente1.jpg" alt="Cliente 1" width="350px">
+                    <p>"¡Encontramos el salón perfecto para el cumple de mi hijo! Todo fue muy fácil y el lugar era hermoso." - Daniela Coll.</p>
+                </div>
+                <div class="testimonio">
+                    <img src="/images/cliente2.jpg" alt="Cliente 2" width="350px">
+                    <p>"La variedad de servicios adicionales nos ayudó a organizar una fiesta increíble sin complicaciones." - Juan Bosche</p>
+                </div>
+                <div class="testimonio">
+                    <img src="/images/cliente3.jpg" alt="Cliente 3" width="350px">
+                    <p>"¡Descubrimos el salón ideal para celebrar el cumpleaños de mi hijo! Todo resultó muy sencillo y el lugar era precioso." - Alejandro Bisce.</p>
+                </div>
+                </div>
+            
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Partylandia. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
